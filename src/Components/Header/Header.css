@@ -1,0 +1,28 @@
+header, header > aside{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+header{
+    background-color: rgb(51, 37, 47);
+    color: white;
+    padding: 1rem;
+}
+
+header>aside{
+    padding:1rem  0;
+}
+header>h1{
+    padding:0.3rem  0;
+    color: hotpink;
+}
+
+.navList{
+    display: flex;
+    list-style-type: none;
+}
+
+.navList__item{
+    margin-right: 2rem;
+}
